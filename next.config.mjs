@@ -12,6 +12,10 @@ const nextConfig = {
     contentDispositionType: 'attachment',
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
     unoptimized: true,
+    // remotePatterns: [{
+    //   protocol: 'https',
+    //   hostname: 'unsplash.com'
+    // }],
   },
   experimental: {
     optimizePackageImports: ['lucide-react'],
